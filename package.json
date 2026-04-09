@@ -1,0 +1,10 @@
+{
+  "name": "sports-odds-platform-root",
+  "version": "1.0.0",
+  "scripts": {
+    "start-services": "concurrently \"cd ai_service && python main.py\" \"cd backend && npm run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
